@@ -1,67 +1,34 @@
-pipeline {
-    tools {
+pipeline{
+    tools{
         jdk 'myjava'
         maven 'mymaven'
     }
-    
-    agent any
-    
-    stages {
-        stage('Checkout') {
-            agent {
-                label 'master'
-            }
-            steps {
-                echo 'Cloning...'
-                git 'https://github.com/RayItern/JUNECLASSPRO1.git'
-            }
-        }
-        
-        stage('Compile') {
-            agent {
-                label 'slave1'
-            }
-            steps {
-                echo 'Compiling...'
-                sh 'mvn compile'
-            }
-        }
-        
-        stage('CodeReview') {
-            agent {
-                label 'slave1'
-            }
-            steps {
-                echo 'Code Review...'
-                sh 'mvn pmd:pmd'
-            }
-        }
-        
-        stage('UnitTest') {
-            agent {
-                label 'slave2'
-            }
-            steps {
-                echo 'Testing...'
-                sh 'mvn test'
-            }
-            post {
-                success {
-                    junit 'target/surefire-reports/*.xml'
-                }
-            }
-        }
-        
-        stage('Package') {
-            agent {
-                label 'master'
-            }
-            steps {
-                echo 'Packaging...'
-                sh 'mvn package'
-            }
-        }
-    }
+	agent any
+      stages{
+           stage('Checkout'){
+              steps{
+		 echo 'cloning..'
+                 git 'https://github.com/RayItern/JUNECLASSPRO1.git'
+              }
+          }
+          stage('Compile'){
+              steps{
+                  echo 'compiling..'
+                  sh 'mvn compile'
+	      }
+          }
+          stage('CodeReview'){
+              steps{
+		    
+		  echo 'codeReview'
+                  sh 'mvn pmd:pmd'
+              }
+          }
+          
+          stage('Package'){
+              steps{
+                  sh 'mvn package'
+              }
+          }
+      }
 }
-
-
