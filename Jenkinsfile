@@ -5,19 +5,19 @@ pipeline{
     }
 	agent any
       stages{
-           stage('Checkout'){
+           stage('Checkout with git'){
               steps{
 		 echo 'cloning..'
                  git 'https://github.com/RayItern/JUNECLASSPRO1.git'
               }
           }
-          stage('Compile'){
+          stage('Compile with mvn'){
               steps{
                   echo 'compiling..'
                   sh 'mvn compile'
 	      }
           }
-          stage('CodeReview'){
+          stage('CodeReview with mvn'){
               steps{
 		    
 		  echo 'codeReview'
