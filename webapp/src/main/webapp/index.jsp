@@ -1,4 +1,1 @@
-CloudSolution to DevOps maanaging your cicd pipeline setting Automation for devop1 one completion class.
-
-
-END DEVOPS1 CICD PIPELINE AUTOMATION.
+CloudSolution to DevOps maanaging your cicd pipeline setting Automation for devop1 starting today 4th of june 2024.
