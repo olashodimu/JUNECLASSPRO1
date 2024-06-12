@@ -25,7 +25,7 @@ pipeline{
               }
           }
           
-          stage('Package with mvn3'){
+          stage('Package with mvn'){
               steps{
                   sh 'mvn package'
               }
