@@ -17,7 +17,7 @@ pipeline{
                   sh 'mvn compile'
 	      }
           }
-          stage('CodeReview with mvn'){
+          stage('CodeReview with mvn2'){
               steps{
 		    
 		  echo 'codeReview'
@@ -25,7 +25,7 @@ pipeline{
               }
           }
           
-          stage('Package with mvn'){
+          stage('Package with mvn3'){
               steps{
                   sh 'mvn package'
               }
