@@ -1,3 +1,1 @@
-<h1CloudSolution to DevOps maanaging your cicd pipeline setting Automation for devop1 starting today 11th of june 2024 hello classssssss..<h1>
-
-<h2> Sample webpage for CICD PIPELINE AUTOMATION 2024... <h2> 
+The payment app display colour backgroud will change to blue and yellow in the 24 houres.
