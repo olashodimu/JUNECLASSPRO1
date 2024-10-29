@@ -1,1 +1,1 @@
-NIGERIA DevOps class is on, so much to learn. Get ready now!!!The class is still in progress. Still in progress.
+USA DevOps class just started work load on cicd.
