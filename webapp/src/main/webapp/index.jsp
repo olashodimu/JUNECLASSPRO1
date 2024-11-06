@@ -1,1 +1,1 @@
-USA DevOps class just started work load on cicd.A new push.
+USA DevOps class just started work load on cicd. Lectures is on going.
