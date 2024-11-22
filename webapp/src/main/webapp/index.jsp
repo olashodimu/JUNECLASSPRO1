@@ -1,1 +1,1 @@
-<h1>end of cicd pipeline on devops1.<h1>
+<h1>Automate the deployment of the Artifact to remote server cicd.<h1>
