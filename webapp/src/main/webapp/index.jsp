@@ -1,1 +1,1 @@
-<h1>Automate the deployment of the Artifact to remote server cicd.<h1>
+<h1>THIS IS JUST THE BEGINNING OF MORE TASK TO COME USING JENKINS TO AUTOMATE THE DEPLOYMENT OF YOUR CICD PIPELINE<h1>
