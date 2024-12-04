@@ -1,1 +1,1 @@
-<h1>THIS IS JUST THE BEGINNING OF MORE TASK TO COME USING JENKINS TO AUTOMATE THE DEPLOYMENT OF YOUR CICD PIPELINE<h1>
+<h1> DevOps class for August batch started this by various talented gurus.<h1>
