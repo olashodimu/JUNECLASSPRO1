@@ -1,14 +1,14 @@
 pipeline{
     tools{
-        jdk 'ourjava'
-        maven 'ourmaven'
+        jdk 'myjava'
+        maven 'mymaven'
     }
 	agent any
       stages{
-           stage('Checkout with git'){
+           stage('Checkout'){
               steps{
 		 echo 'cloning..'
-                 git 'https://github.com/tinubu/JUNECLASSPRO1.git'
+                 git 'https://github.com/RayItern/JUNECLASSPRO1.git'
               }
           }
           stage('Compile with maven'){
