@@ -25,7 +25,7 @@ pipeline{
               }
           }
           
-          stage('Package with maven'){
+          stage('Packagebuild with maven'){
               steps{
                   sh 'mvn package'
               }
