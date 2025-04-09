@@ -1,1 +1,1 @@
-DevOps class for Mag just started
+DevOps class for Mag is on going.
