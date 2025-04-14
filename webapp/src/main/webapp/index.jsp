@@ -1,1 +1,1 @@
-DevOps class for Mag is on going.
+Mag DevOps was running succesfully until jenkins almost messed up.
