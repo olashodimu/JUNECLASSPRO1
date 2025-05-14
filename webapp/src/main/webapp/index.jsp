@@ -1,1 +1,1 @@
-<h1>Mag DevOps class took an hold for one week and we are back fully and running succesfully with ease <h1>
+<h1>Mag DevOps1 class has come to an end with Ansibel, moving into DevOps2 nextweek <h1>
